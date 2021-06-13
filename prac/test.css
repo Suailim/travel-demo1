@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #6495ed;
+}
+.part1{
+    height: 90vh;
+    width: 100%;
+    background: blueviolet;
+    display: flex;
+
+    position: relative;
+}
+.part1 .part1-content{
+    width: 100%;
+    border: 5px solid rgb(255, 0, 0) ;
+    display: flex;
+}
+.part1 .part1-content .part1-section{
+    flex: 1;
+    border: 5px solid white;
+}
